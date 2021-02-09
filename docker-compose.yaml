@@ -5,6 +5,14 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Europe/Amsterdam
-      - ACCOUNT_EMAIL=benjishift@gmail.com
+      - CONFIG_FILE=config-ben
+    volumes:
+      - ./config:/home/node/.config/toogoodtogo-watcher-nodejs
+  tgtg-watcher-chloe:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Amsterdam
+      - CONFIG_FILE=config-chloe
     volumes:
       - ./config:/home/node/.config/toogoodtogo-watcher-nodejs

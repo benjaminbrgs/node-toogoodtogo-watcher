@@ -1,14 +1,10 @@
 {
   "api": {
     "credentials": {
-      "email": "benjishift@gmail.com",
-      "password": "aston2004"
+      "email": "Email of your TooGoodToGo account.",
+      "password": "Password of your TooGoodToGo account."
     },
-    "session": {
-      "userId": "8237831",
-      "accessToken": "e30.eyJzdWIiOiI4MjM3ODMxIiwiZXhwIjoxNjEyOTgyODg4LCJ0IjoiMzNyVHptdHFTLW1hQkZVQmljbkd6QTowOjEifQ.dFnSVUApp5ce2UZY7jSShAPgTDB86FAzAL7JhL9tO90",
-      "refreshToken": "e30.eyJzdWIiOiI4MjM3ODMxIiwiZXhwIjoxNjQ0MjY1MDYyLCJ0Ijoic093a3RmWklTLUs4VDYtNzk1SzZLZzowOjAifQ.K2BAjsIiJ-8SbP2nxHDx9tH5dilV59xGw17trHKRLUs"
-    },
+    "session": {},
     "headers": {
       "User-Agent": "TooGoodToGo/20.6.1 (813) (iPhone/iPhone 7 (GSM); iOS 13.6; Scale/2.00)"
     },
@@ -24,15 +20,9 @@
       "enabled": false
     },
     "telegram": {
-      "enabled": true,
-      "botToken": "1671999465:AAE6kp6ogIBQgpfcgpKQVYX1HxGMZgiubvk",
-      "chats": [
-        {
-          "id": 200130766,
-          "firstName": "Benjamin",
-          "lastName": "Bourgeois"
-        }
-      ]
+      "enabled": false,
+      "botToken": "See README",
+      "chats": []
     },
     "ifttt": {
       "enabled": false,
