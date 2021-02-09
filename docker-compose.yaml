@@ -1,0 +1,10 @@
+version: "3"
+services:
+  tgtg-watcher-ben:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Amsterdam
+      - ACCOUNT_EMAIL=benjishift@gmail.com
+    volumes:
+      - ./config:/home/node/.config/toogoodtogo-watcher-nodejs
